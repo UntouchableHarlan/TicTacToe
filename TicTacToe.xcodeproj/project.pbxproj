@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6400F3401DA57070001C2B12 /* drake.png in Resources */ = {isa = PBXBuildFile; fileRef = 6400F33F1DA57070001C2B12 /* drake.png */; };
+		6400F3421DA57092001C2B12 /* kwh4.png in Resources */ = {isa = PBXBuildFile; fileRef = 6400F3411DA57092001C2B12 /* kwh4.png */; };
 		64AF18F01DA341B50074B5F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AF18EF1DA341B50074B5F2 /* AppDelegate.swift */; };
 		64AF18F21DA341B50074B5F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AF18F11DA341B50074B5F2 /* ViewController.swift */; };
 		64AF18F51DA341B50074B5F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64AF18F31DA341B50074B5F2 /* Main.storyboard */; };
 		64AF18F71DA341B50074B5F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64AF18F61DA341B50074B5F2 /* Assets.xcassets */; };
 		64AF18FA1DA341B50074B5F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64AF18F81DA341B50074B5F2 /* LaunchScreen.storyboard */; };
+		64AF19041DA3471A0074B5F2 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 64AF19011DA3471A0074B5F2 /* board.png */; };
+		64AF19051DA3471B0074B5F2 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 64AF19021DA3471A0074B5F2 /* cross.png */; };
+		64AF19061DA3471B0074B5F2 /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = 64AF19031DA3471A0074B5F2 /* nought.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6400F33F1DA57070001C2B12 /* drake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drake.png; sourceTree = "<group>"; };
+		6400F3411DA57092001C2B12 /* kwh4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kwh4.png; sourceTree = "<group>"; };
 		64AF18EC1DA341B50074B5F2 /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64AF18EF1DA341B50074B5F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		64AF18F11DA341B50074B5F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64AF18F11DA341B50074B5F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		64AF18F41DA341B50074B5F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		64AF18F61DA341B50074B5F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64AF18F91DA341B50074B5F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64AF18FB1DA341B50074B5F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64AF19011DA3471A0074B5F2 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		64AF19021DA3471A0074B5F2 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		64AF19031DA3471A0074B5F2 /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +67,11 @@
 				64AF18EF1DA341B50074B5F2 /* AppDelegate.swift */,
 				64AF18F11DA341B50074B5F2 /* ViewController.swift */,
 				64AF18F31DA341B50074B5F2 /* Main.storyboard */,
+				6400F33F1DA57070001C2B12 /* drake.png */,
+				6400F3411DA57092001C2B12 /* kwh4.png */,
+				64AF19011DA3471A0074B5F2 /* board.png */,
+				64AF19021DA3471A0074B5F2 /* cross.png */,
+				64AF19031DA3471A0074B5F2 /* nought.png */,
 				64AF18F61DA341B50074B5F2 /* Assets.xcassets */,
 				64AF18F81DA341B50074B5F2 /* LaunchScreen.storyboard */,
 				64AF18FB1DA341B50074B5F2 /* Info.plist */,
@@ -123,6 +138,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64AF19051DA3471B0074B5F2 /* cross.png in Resources */,
+				6400F3421DA57092001C2B12 /* kwh4.png in Resources */,
+				64AF19041DA3471A0074B5F2 /* board.png in Resources */,
+				64AF19061DA3471B0074B5F2 /* nought.png in Resources */,
+				6400F3401DA57070001C2B12 /* drake.png in Resources */,
 				64AF18FA1DA341B50074B5F2 /* LaunchScreen.storyboard in Resources */,
 				64AF18F71DA341B50074B5F2 /* Assets.xcassets in Resources */,
 				64AF18F51DA341B50074B5F2 /* Main.storyboard in Resources */,
@@ -297,6 +317,7 @@
 				64AF19001DA341B50074B5F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
